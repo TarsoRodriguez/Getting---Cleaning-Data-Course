@@ -18,6 +18,7 @@ run_analysis <- function(){
     Column_Names <- read.table("./UCI HAR Dataset/features.txt")
     Column_Names <- tolower(Column_Names[,2])
     Column_Names <- gsub("bodybody", "body", Column_Names)
+    Column_Names <- gsub("),", ",", Column_Names)
     
     ## Adding column names
     colnames(DF_X_Test) <- Column_Names
