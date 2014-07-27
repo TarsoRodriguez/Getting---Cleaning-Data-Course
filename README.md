@@ -1,7 +1,7 @@
-Getting---Cleaning-Data-Course
+Getting & Cleaning Data Course
 ==============================
 
-Course Project
+##Course Project
 
 ==============================
 
